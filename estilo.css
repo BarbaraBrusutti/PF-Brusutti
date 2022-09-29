@@ -36,7 +36,7 @@ a:link, a:visited {
   text-decoration: none; color:#2f3e46;
 }
 
-.nav-tope {
+.nav-top {
    display:flex;
    flex-direction: row-reverse;
    padding-right: 55px; 
@@ -47,12 +47,12 @@ main {
    display: flex;
 }
 
-.foto-inicio { 
+.photo-inicio { 
    height: 100%;
    width: 100%;
 }
 
-.logo-wsp {  
+.img-wsp {  
    position:fixed;
    width: 55px;
    height: 80px;
@@ -70,7 +70,7 @@ footer {
    justify-content:right;
 }
 
-.footer-final {
+.footer-end {
    display: flex;
    width: 100%;
    align-items: center;
@@ -78,7 +78,7 @@ footer {
    padding: 10px;
 }
 
-.logo-footer {
+.img-footer {
    width: 80px;
    height: auto;
    margin-left: 290px;
@@ -100,35 +100,35 @@ footer {
    flex-direction: row-reverse;
 }
 
-.contacto {
+.contact {
    display: grid;
    grid-template-columns: 3fr 3fr;
    column-gap: 130px;
 }
 
-.formulario {
+.form-1 {
    font-size: 1.2rem;
    padding: 30px;
    margin-left: 50px;
    margin-top: 30px;
 }
 
-.boton {
+.bottom {
    font-size: large;
 }
 
-.datos {
+.data {
    list-style: none;
    border: none;
    margin-top: 30px;
    font-size: 1.2rem;
 }
 
-.mapa {
+.map {
    margin-top: 50px;
 }
 
-.main-jardines {
+.main-garden {
    display: grid;
    grid-template-columns: 1fr 1.5fr 1fr;
    column-gap: 10px;
@@ -138,7 +138,7 @@ footer {
    align-items: center;
 }
   
-.foto-jardin {
+.photo-garden {
    width: 90%;
    height: 90%;
 } 
@@ -148,7 +148,7 @@ p {
    font-size: 2 rem;
 }
 
-.grid-contenedor {
+.grid-container {
    display: grid;
    grid-template-columns: repeat(4, 2fr);
    grid: template rows 5px;     
@@ -186,7 +186,7 @@ h3 {
 
    @media only screen and (max-width:450px) {
 
-      .grid-contenedor {
+      .grid-container {
          display: grid;
          grid-template-columns: repeat(1, 1fr);
          padding: 50px;
@@ -209,7 +209,7 @@ h3 {
          font-size: 8px;
       }
 
-      .logo-wsp {
+      .img-wsp {
          position:fixed;
          width: 5px;
          height: 8px;
@@ -224,11 +224,11 @@ h3 {
          bottom: 0px;
       }
 
-      .logo-footer{
+      .img-footer{
          justify-content: left;
       }
 
-      .footer-final {
+      .footer-end {
          width: 100%;
          height: 30%;
          justify-content: right;
@@ -247,14 +247,14 @@ h3 {
         background-color: #cdeac0 
       }
 
-      .main-jardines {
+      .main-garden {
          display: grid;
          grid-template-columns: repeat(1, 1fr);
          width: 100%;
          margin-left: 0px;
       }
 
-      .texto-jardines {
+      .text-garden {
          font-size: 8px;
          overflow: hidden;
          width: 100%;
