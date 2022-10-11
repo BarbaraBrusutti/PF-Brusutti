@@ -1,0 +1,19 @@
+{
+  "name": "pre-entrega-brusutti-barbara",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BarbaraBrusutti/pre-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BarbaraBrusutti/pre-entrega/issues"
+  },
+  "homepage": "https://github.com/BarbaraBrusutti/pre-entrega#readme"
+}

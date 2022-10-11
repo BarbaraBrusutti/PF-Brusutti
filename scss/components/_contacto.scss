@@ -1,0 +1,45 @@
+main {
+.contact {
+display: grid;
+   grid-template-columns: 3fr 3fr;
+   column-gap: 130px;
+
+   @media only screen and (max-width: 450px) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      margin-left: 0px;
+     }
+
+    .form-1{ 
+        font-size: 1.2rem;
+        padding: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+
+   @media only screen and (max-width: 450px) {
+      width: 90%;
+      margin-left: 2px;
+     }
+
+    }
+ }
+ .map {
+    margin-top: 50px;
+
+    @media only screen and (max-width: 450px) {
+      width: 100%;
+      overflow-x: hidden;
+     }
+
+    .data {
+        list-style: none;
+        border: none;
+        margin-top: 30px;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        
+
+    }
+ }
+}

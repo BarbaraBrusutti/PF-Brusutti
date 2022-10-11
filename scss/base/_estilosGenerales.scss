@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+  
+  
+  a:visited , a:link {
+  text-decoration: none; color:whitesmoke;
+}
+   
+
+   body {
+    background-color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+
+    main {
+        display: flex;
+
+        .img-wsp { 
+            position:fixed;
+            width: 55px;
+            height: 80px;
+            bottom: 30px;
+            right: 30px;
+            border-radius: 30px;
+            font-size: 4rem;
+            color: lightgreen;
+
+            @media only screen and (max-width:450px) { 
+
+            position:fixed;
+            width: 5px;
+            height: 8px;
+            bottom: 50px;
+            padding: 20px;
+            border-radius: 3px;
+            font-size: 2rem; 
+         }
+         }
+
+        h2 {
+            padding: 5px;
+            color: #2f3e46; 
+            font-size: 1rem;
+
+            @media only screen and (max-width:450px) {
+               font-size: 10px; 
+
+            }
+         }
+         
+         h3 {
+            padding: 4px;
+            border: solid #2f3e46 2px; 
+            font-size: 1rem;
+
+            @media only screen and (max-width:450px) {
+               font-size: 8px;
+
+            }
+         }
+         .bottom {
+            font-size: large;
+         }
+    }
+    
+   
+ } 
+   
