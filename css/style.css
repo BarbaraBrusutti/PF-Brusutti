@@ -68,7 +68,7 @@ body main .bottom {
 header nav .container-fluid {
   font-size: 15px;
   justify-content: space-between;
-  background-image: url(../../fotos/pexels-photo-1353938.webp);
+  background-image: url(/fotos/pexels-photo-1353938.webp);
   height: 300px;
 }
 @media only screen and (max-width: 450px) {
@@ -77,14 +77,14 @@ header nav .container-fluid {
     height: 2%;
   }
 }
-header nav .container-fluid .navbar-brand {
-  font-size: 35px;
+header nav .container-fluid h1 {
+  font-size: 20spx;
   font-weight: 900;
   color: darkslategray;
   text-decoration: underline;
 }
 @media only screen and (max-width: 450px) {
-  header nav .container-fluid .navbar-brand {
+  header nav .container-fluid h1 {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
@@ -137,6 +137,7 @@ footer .footer-end {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  bottom: 0px;
 }
 @media only screen and (max-width: 450px) {
   footer .footer-end {
@@ -186,19 +187,18 @@ main .contact {
   main .contact {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-    margin-left: 0px;
+    width: 90%;
   }
 }
 main .contact .form-1 {
   font-size: 1.2rem;
   padding: 30px;
-  margin-left: 50px;
+  margin-left: 70px;
   margin-top: 30px;
 }
 @media only screen and (max-width: 450px) {
   main .contact .form-1 {
-    width: 90%;
+    width: 100%;
     margin-left: 2px;
   }
 }
@@ -207,8 +207,10 @@ main .map {
 }
 @media only screen and (max-width: 450px) {
   main .map {
-    width: 100%;
+    width: 90%;
     overflow-x: hidden;
+    margin-left: 5px;
+    align-items: center;
   }
 }
 main .map .data {
@@ -216,7 +218,7 @@ main .map .data {
   border: none;
   margin-top: 30px;
   font-size: 1.2rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 main .main-garden {

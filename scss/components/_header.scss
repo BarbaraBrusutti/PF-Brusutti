@@ -7,7 +7,7 @@ header {
      .container-fluid {
         font-size: 15px;
         justify-content: space-between;
-        background-image: url(https://raw.githubusercontent.com/BarbaraBrusutti/pre-entrega/master/fotos/pexels-photo-1353938.webp);
+        background-image: url(/fotos/pexels-photo-1353938.webp);
         height: 300px;
         @media only screen and (max-width:450px) {
             width: 100%;
@@ -15,7 +15,7 @@ header {
         }
 
          h1{
-            font-size: 35px;
+            font-size: 20spx;
             font-weight: 900;
             color: darkslategray;
             text-decoration: underline;
