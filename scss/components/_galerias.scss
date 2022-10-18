@@ -1,3 +1,6 @@
+@import '../base/variables';
+@import '../base/mixin';
+
 main {
     .grid-container {
         display: grid;
@@ -14,15 +17,14 @@ main {
         }
 
         .grid-item {
-            border: solid 2px #2f3e46;
+            border: solid 2px $h2-border-color;
             text-align: center;
             @media only screen and (max-width:450px) {
                 grid-column: span 1;  
             }
 
             .grid-photo {
-                width: 100%;
-                height: 100%;
+                @include medidas ( 100%, 100% );
                 object-fit: cover;
                 
 

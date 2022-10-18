@@ -1,8 +1,11 @@
+@import '../base/variables';
+@import '../base/mixin';
+
 footer {
     margin-top: 80px;
     bottom: 0;
     width: 100%;
-    background-color: white;
+    background-color: $nav-font-color;
     justify-content:right;
     letter-spacing: 2px; 
 
@@ -12,24 +15,21 @@ footer {
     }
 
         .footer-end {
-            background-color: darkslategray;
-         display: flex;
+         background-color: $nav-font-color;
+         @include mixfooter (flex, space-between, 10px);
          width: 100%;
          align-items: center;
-         justify-content: space-between;
-         padding: 10px;
          bottom: 0px;
 
          @media only screen and (max-width:450px) {
-            display: flex;
-         width: 100%;
-         height: 30%;
-         justify-content: right;
-         padding: 2px; }
+
+         @include mixfooter (flex, right, 2px);
+         @include medidas ( 100%, 30% );
+    
+         }
 
            .img-footer {
-            width: 80px;
-            height: auto;
+            @include medidas ( 80px, auto);
             margin-left: 290px;
             margin-bottom: 30px; 
 
@@ -42,10 +42,8 @@ footer {
                .nav-list {
                 list-style: none;
                 border: none;
-                display: inline-block;
+                @include mixfooter (inline-block, space-around, 50px);
                 justify-items: center;
-                justify-content: space-around;
-                padding: 50px;
                 flex-direction: row-reverse;
 
                 @media only screen and (max-width:450px) {

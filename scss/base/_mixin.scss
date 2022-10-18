@@ -1,0 +1,17 @@
+@mixin medidas ( $width, $height) {
+    width: $width;
+    height: $height;
+    
+}
+@mixin mixfooter ($display, $justify-content, $padding){
+    display: $display;
+    justify-content: $justify-content;
+    padding: $padding;
+    
+}
+
+
+
+
+
+

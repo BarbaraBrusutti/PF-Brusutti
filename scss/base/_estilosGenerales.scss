@@ -1,3 +1,6 @@
+@import '../base/variables';
+@import '../base/mixin';
+
 * {
     margin: 0;
     padding: 0;
@@ -5,21 +8,20 @@
   
   
   a:visited , a:link {
-  text-decoration: none; color:whitesmoke;
+  text-decoration: none; color: $bg-color;
 }
    
 
    body {
-    background-color: whitesmoke;
-    font-family: 'Quicksand', sans-serif;
+    background-color: $bg-color;
+    font-family: $font-family;
 
     main {
         display: flex;
 
         .img-wsp { 
             position:fixed;
-            width: 55px;
-            height: 80px;
+            @include medidas (55px, 80px);
             bottom: 30px;
             right: 30px;
             border-radius: 30px;
@@ -29,8 +31,7 @@
             @media only screen and (max-width:450px) { 
 
             position:fixed;
-            width: 5px;
-            height: 8px;
+            @include medidas (5px,8px);
             bottom: 50px;
             padding: 20px;
             border-radius: 3px;
@@ -40,7 +41,7 @@
 
         h2 {
             padding: 5px;
-            color: #2f3e46; 
+            color: $h2-border-color; 
             font-size: 1rem;
 
             @media only screen and (max-width:450px) {
@@ -51,7 +52,7 @@
          
          h3 {
             padding: 4px;
-            border: solid #2f3e46 2px; 
+            border: solid $h2-border-color 2px; 
             font-size: 1rem;
 
             @media only screen and (max-width:450px) {
